@@ -18,16 +18,20 @@ Multi-task Cascaded Convolutional Networks is a three stage cascade deep neural 
 
 **3: (Output Network- ONET)**: Similar to the second stage, but in this stage face regions are identified with more supervision. In particular, the network will output five facial landmarks positions.
 
-# Facial Feature Extraction Using Facenet
+# Facenet (Feature Extraction)
 
 FaceNet, learns a mapping from face images to a compact 128-D Euclidean space Once this space has been produced, tasks such as face recognition, verification and clustering can be easily implemented using standard techniques with FaceNet embeddings as feature vectors. 
 The pre-trained model of Inception Resnet v1 trained on CASIA-Webface dataset is being used and it gives an accuracy of 98.72% 
 
-# Classifier
+# Classification
 
 The extracted features from facenet are trained on RF and SVM classifier for the created dataset.
 
-# Preparing Dataset
+
+________________________________________________________________________________________________________ _ _ _
+
+
+# Preparing the Dataset
 
 For preparing the dataset, separate folders for each person need to be created. For each folder should have nearly 15-25 images of the person in different positions, keeping the camera in front of it.
 
