@@ -42,3 +42,5 @@ For preparing the dataset, separate folders for each person need to be created. 
 **For Training the Classifier with the dataset**  
   
 python train_classifier.py --input-dir 'INPUT IMAGE DIRECTORY' --model-path models/20170511-185253.pb --classifier-path 'PATH TO SAVE THE TRAINED MODEL' --num-threads 10 --num-epochs 5 --min-num-images-per-class 1
+
+## Click <a href="https://nvios.github.io/luca_bontempi/"><strong>here</strong></a> to see my latest projects!
